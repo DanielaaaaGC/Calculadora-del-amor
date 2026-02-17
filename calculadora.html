@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Calculadora del Amor</h1>
+    <form method="post" action="calcu.php">
+        <input type="text" placeholder="Nombre persona 1" id="persona1"  name="num1">
+        <input type="text" id="persona2" placeholder="Nombre persona 2" name="num2"/>
+        <input type="submit" name="calcular" value="Contar letras">
+    </form>
+
+    <div class="porcentaje" id="porcentaje">
+        <p>
+                    Numero de Contactos: <?php echo $resultado->num_rows;?>
+                </p>
+    </div>
+
+  
+  
+</body>
+</html>
